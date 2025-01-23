@@ -1,0 +1,116 @@
+/* all cummon css start */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+/* all cummon css end */
+/* hedar part start */
+.hedarpart{
+
+}
+.hedarpart2{
+   padding: 20px; background-color: rgba(0, 0, 0, 0.5);display: flex;justify-content: space-around;
+}
+.one{
+    background-image: url(../image10/logo.png);height: 20px;width: 80px;background-position: center;background-repeat: no-repeat;background-size: cover;
+}
+.tow ul,li a{
+    color: #fff;text-transform: uppercase;padding-left: 15px;
+}
+ul,li a:hover{
+    color: blue;transition:.4s;
+}
+.submit{
+    text-transform: uppercase;color: #fff;
+}
+.submit:hover{
+    color: blue;transition: .4s;
+}
+.search{
+    color: #fff;
+}
+.search:hover{
+    color: blue;transition: .4s;
+}
+/* hader part end */
+/* venarpar start */
+.vennar{
+    background-image: url(../image10/slider-01.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;
+}
+.overly{
+ padding: 250px 0px;background-color: rgba(0, 0, 0, 0.5);   
+}
+.overly h1{
+    text-transform: uppercase;color: #fff;text-align: center;
+}
+.overly p{
+    text-align: center;color: #fff;text-transform: uppercase;padding-left: 20px;padding-top: 10px;
+}
+/* vennarpar end */
+/* vennar part2 start  */
+.vennarpart2{
+    display: flex;
+}
+.part1{
+    padding: 150px 0px;background-color:white
+}
+.part1 h1{
+    color: #000;text-decoration: none;padding-left: 20px;text-transform: uppercase;
+}
+.part1 p{
+    color: #000;text-transform: uppercase;padding-top: 15px;padding-left: 20px;
+}
+/* vennar part2 end  */
+/* vennar part3 start */
+#part3{
+    background-image: url(../image10/fekkase.jpg);background-repeat: no-repeat;background-position: center;background-size: cover;
+}
+.part3overly{
+    padding: 250px;background-color: rgba(0, 0, 0, 0.5);
+}
+.contenar{
+    text-align: center;text-transform: capitalize;
+}
+.contenar p{
+    padding-top: 20px;
+}
+.baba{
+    display: flex;justify-content: space-between;
+}
+.item{
+    padding: 50px; width: 3%;background-color: #fff;margin-top: 100px;
+}
+.item i{
+    font-size: 30px;
+}
+.item h4{
+    padding-top: 10px;font-size: medium;
+}
+.item:hover{
+    color: blue;transition: .4s;
+}
+/* vennar par3 end */
+/* last part start */
+#lastpart{
+    padding: 250px 0px;position: relative;
+}
+.maddom{
+    display: flex; flex-wrap: wrap;position: absolute;
+}
+.left h4{
+    font-size: 20px;padding-top: 20%;
+}
+.left p1{
+    font-size: 20px;padding-top: 21%;
+}
+.right img{
+    width: 79%;padding-top: 0%;
+}
+
+/* last part end */
